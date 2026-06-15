@@ -1,16 +1,24 @@
-# React + Vite
+# ChurnRadar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Know before your customer leaves.
 
-Currently, two official plugins are available:
+ChurnRadar watches every customer signal across Stripe, Gmail and Intercom and alerts you the moment someone is about to cancel — before it's too late.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What it does
 
-## React Compiler
+- Monitors customer health signals 24/7
+- Calculates risk scores for every customer
+- Sends alerts when someone is about to churn
+- Generates AI powered messages to save at risk customers
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React + Vite
+- React Router
+- Node.js (coming soon)
+- Supabase (coming soon)
+- Stripe API (coming soon)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built by
+
+Akhil Muley — Founder of ChurnRadar
