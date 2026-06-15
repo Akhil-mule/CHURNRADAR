@@ -1,4 +1,4 @@
-# ChurnRadar
+# CHURNRADAR
 
 Know before your customer leaves.
 
